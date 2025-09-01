@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.logo {
+    font-family: "Ubuntu", sans-serif;
+    word-spacing: 30px;
+    letter-spacing: 2px;
+}
+
+.join-btn :hover {
+    transform: scale(1.1);
+}
+
+.ex1{
+    transition: all 0.3s;
+}
+a.ex1:hover {
+    transform: scale(1.04);
+    color: blue;
+    
+}
+a.home {
+    color: blue;
+}
+
+.carousel-item img {
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+.carousel-item-1 img {
+
+    height: 50vh;
+    width: 100%;
+   
+}
+
+
+
+.cards{
+    transition: all 0.3s;
+}
+.cards:hover {
+    transform: scale(1.04);
+    background-color: #06BBCC;
+    opacity: 0.8;
+    color: white;
+}
+
+
+.card-img-top{
+    transition: all 0.3s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.04);   
+}
+
+.price{
+    font-family: "Nunito Sans", sans-serif;
+}
+.price-1{
+    font-family: "Ubuntu", sans-serif;
+}
+.unorder-list{
+    list-style-type: none;
+}
+.title{
+    font-family: "Nunito Sans", sans-serif;
+}
+.about{
+    font-family: "Ubuntu", sans-serif;
+}
+info{
+font-family: "Ubuntu", sans-serif;
+}
+
+.ss1
+{
+    height: 60%;
+ 
+}
+.ss2{
+    height: 40%;
+    
+}
+.ss{
+    height: 300px;
+}
+.imgg-1{
+    height: 50%;
+border: 2px solid black;
+}
+.footer-1{
+    height: 400px;
+width: 100%;
+background-color: #181D38;
+}
+.ww{
+    text-decoration: none;
+}
+hr.hh{
+    border: 1px solid white;
+   width: 90%;
+}
+.ttt {
+    margin-top: 115px;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+
+
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.fff{
+    box-shadow: rgba(4, 100, 255, 0.19) 6px 10px 20px, rgba(0, 98, 255, 0.23) 6px 6px 6px;
+}
+.hhh{
+    height:40px;
+}
+.cources{
+    height: 200px;
+
+   
+    margin-top: 75px;
+}
+.ssa{
+    font-size: 40px;
+}
+/* *******************************************************tablet************************************************************************* */
+
+@media screen And (min-width:927px) {
+
+    .details {
+        padding-bottom: 100px;
+    }
+
+    .platform {
+        font-size: 40px;
+        font-family: "Ubuntu", sans-serif;
+    }
+.f-1{
+   
+    height: 250px;
+}
+.body-1 {
+    overflow: hidden;
+    position: fixed;
+}
+
+
+
+
+
+}
+
+/* *****************************************************mobile*****************************************************************************
+ */
+@media screen And (max-width:667px) {
+
+    .details {
+        margin-bottom: 100px;
+        width: 300px;
+    }
+
+    .platform {
+        font-size: 40px;
+        font-family: "Ubuntu", sans-serif;
+    }
+    
+.cards{
+    transition: all 0.3s;
+}
+.cards:hover {
+    transform: scale(1.04);
+    background-color: #06BBCC;
+    opacity: 0.8;
+    color: white;
+}
+ 
+.cap{
+    font-size: 50px;
+}
+
+.f-1{
+   
+    height: 300px;
+}
+.footer-1{
+    height: 750px;
+width: 100%;
+background-color: #181D38;
+}
+
+
+
+}
+
+/* *******************************************************************laptop******************************************************************** */
+
+
+
+
+
+
+@media screen And (min-width:1200px) {
+
+    .details {
+        /* margin-bottom: 50px; */
+        text-align: left;
+    }
+    .body-1 {
+        overflow: hidden;
+    }
+
+    .platform {
+        font-size: 60px;
+        font-family: "Ubuntu", sans-serif;
+        line-height: 1.2;
+    }
+    .f-1{
+   
+        height: 300px;
+    }
+    
+    .cap{
+        font-size: 50px;
+    }
+    
+.f-1{
+   
+    height: 300px;
+
+
+}
+
+}
